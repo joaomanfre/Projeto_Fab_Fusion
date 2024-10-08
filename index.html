@@ -18,11 +18,15 @@
   <!-- NavBar -->
 
     <!-- Peimeira Linha Navabr -->
-    <div class="nav justify-content-between container-fluid">
-        <a class="navbar-brand" href="#">
+    <div class="nav d-flex justify-content-between container-fluid">
+        <a class="navbar-brand align-self-center" href="#">
             <img class="logo" src="./img/logo.png" alt="Bootstrap" width="30" height="24">
-          </a>
+        </a>
 
+        <!-- meio do header -->
+  <div class="d-flex align-items-end flex-column">
+        <div class="container-fluid">
+          <!-- barra de pesquisa -->
         <ul class="nav justify-content-center">
             
             <li class="nav-item">
@@ -32,19 +36,11 @@
               </form>
             </li>
         </ul>
+        <!-- Fim da Barra de Pesquisa -->
+        </div>
 
-        <ul class="navbar-nav flex-row me-2 p-2">
-            <li class="nav-item me-3">
-              <a href="#"><img src="./img/carrinho.png" class="img-nav" alt="carrinho"></a>
-            </li>
-            <li class="nav-item me-3">
-              <a href="#"><img src="./img/profile.png" class="img-nav" alt="perfil"></a>
-            </li>
-            
-        </ul>
-    </div>
-
-    <!-- Segunda Linha NavBar -->
+        <div class="container-fluid">
+          <!-- cmc categorias -->
     <div class="d-flex justify-content-center">
       <ul class="navbar-nav  flex-row ">
         <li class="nav-item me-3">
@@ -74,23 +70,47 @@
         </li>
       </ul>
     </div>
-    <hr>
-    <!-- Fim NavBar -->
+    <!-- fim categorias -->
+        </div>
+  </div>
+  <!-- fim do meio do header -->
 
-    <!-- cmc Carousel automatico -->
-    <div id="carouselExampleSlidesOnly" class="carousel slide d-flex " data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./img/profile.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/carrinho.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/logo.png" class="d-block w-100" alt="...">
+        <ul class="navbar-nav flex-row me-2 p-2 align-self-center">
+            <li class="nav-item me-3">
+              <a href="#"><img src="./img/carrinho.png" class="img-nav" alt="carrinho"></a>
+            </li>
+            <li class="nav-item me-3">
+              <a href="#"><img src="./img/profile.png" class="img-nav" alt="perfil"></a>
+            </li>
+            
+        </ul>
+    </div>
+    <!-- fim header -->
+
+    <!-- cmc Carousel -->
+    <div class="container-fluid d-flex justify-content-center">
+      <div id="carouselExampleSlidesOnly" class="carousel slide d-flex " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/img-carousel/teste1.png" class="d-flex" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/img-carousel/teste2.png" class="d-flex" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/img-carousel/teste3.png" class="d-flex" alt="...">
+          </div>
         </div>
       </div>
     </div>
+  <!-- fim carousel -->     
+
+  <!-- Titulo Mais Vendidos -->
+    <div class="container-fluid d-flex justify-content-center">
+      <p class="mais-vendidos">OS MAIS VENDIDOS</p>
+    </div>
+  <!-- Fim titulo mais vendidos -->
+
 
 </body>
 </html>

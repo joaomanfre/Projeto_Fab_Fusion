@@ -7,10 +7,10 @@
     background-color: #ffcdd2;
 }
 
-
-/* .container-fluid{
-    background-color: #fff;
-} */
+.nav {
+    color: #663E2C;
+    
+}
 
 .barra-pesquisa, .nav-item button {
     background-color: #fff;
@@ -35,8 +35,16 @@
     width: 30px;
 }
 
-.carousel img {
+.carousel-item img {
     width: 700px;
     height: 300px;
-    margin-top: 20px
+    margin-top: 30px
+    
+}
+
+.mais-vendidos {
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: Libre Baskerville;
+    color: #663E2C; 
 }
