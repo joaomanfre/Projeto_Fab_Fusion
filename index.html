@@ -15,8 +15,10 @@
 </head>
 <body class="body">
     
-    <div class="nav">
+  <!-- NavBar -->
 
+    <!-- Peimeira Linha Navabr -->
+    <div class="nav justify-content-between container-fluid">
         <a class="navbar-brand" href="#">
             <img class="logo" src="./img/logo.png" alt="Bootstrap" width="30" height="24">
           </a>
@@ -31,7 +33,63 @@
             </li>
         </ul>
 
+        <ul class="navbar-nav flex-row me-2 p-2">
+            <li class="nav-item me-3">
+              <a href="#"><img src="./img/carrinho.png" class="img-nav" alt="carrinho"></a>
+            </li>
+            <li class="nav-item me-3">
+              <a href="#"><img src="./img/profile.png" class="img-nav" alt="perfil"></a>
+            </li>
+            
+        </ul>
+    </div>
 
+    <!-- Segunda Linha NavBar -->
+    <div class="d-flex justify-content-center">
+      <ul class="navbar-nav  flex-row ">
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#">Kits</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#">Feminino</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#">Masculino</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#">Infantil</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#">Plus Size</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#">Sapatos</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#">Lingerie</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#">Esportivo</a>
+        </li>   
+        </li>
+      </ul>
+    </div>
+    <hr>
+    <!-- Fim NavBar -->
+
+    <!-- cmc Carousel automatico -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide d-flex " data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/profile.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/carrinho.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/logo.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
     </div>
 
 </body>

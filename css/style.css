@@ -7,6 +7,7 @@
     background-color: #ffcdd2;
 }
 
+
 /* .container-fluid{
     background-color: #fff;
 } */
@@ -27,4 +28,15 @@
 .logo {
     height: 50px;
     width: 230px;
+}
+
+.img-nav {
+    height: 30px;
+    width: 30px;
+}
+
+.carousel img {
+    width: 700px;
+    height: 300px;
+    margin-top: 20px
 }
