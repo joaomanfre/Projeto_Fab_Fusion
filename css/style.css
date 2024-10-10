@@ -28,8 +28,9 @@
 }
 
 .logo {
-    height: 50px;
-    width: 230px;
+    height: 80px;
+    width: 60px;
+    margin-left: 15px;
 }
 
 .img-nav {
@@ -49,8 +50,8 @@
 
 /* titulo */
 .mais-vendidos {
-    font-size: 40px;
-    margin-top: 20px;
+    font-size: 30px;
+    margin-top: 40px;
     font-family: Libre Baskerville;
     color: #663E2C; 
 }
